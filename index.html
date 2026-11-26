@@ -10,6 +10,63 @@
     <title>PortHub Switch — каталог портов</title>
 
     <link rel="stylesheet" href="assets/styles.css">
+
+    <style>
+        /* Оформление подвала */
+
+        .footer .footer-layout {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 24px;
+        }
+
+        .footer-left {
+            text-align: left;
+        }
+
+        .footer-center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 6px;
+        }
+
+        .footer-right {
+            text-align: right;
+        }
+
+        .footer-center a {
+            color: #ff9900;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .footer-center a:hover {
+            color: #ffb333;
+            text-decoration: underline;
+        }
+
+        /* Адаптация под мобильные устройства */
+
+        @media (max-width: 900px) {
+            .footer .footer-layout {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+
+            .footer-left,
+            .footer-center,
+            .footer-right {
+                text-align: center;
+            }
+
+            .footer-center {
+                grid-row: 1;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -49,9 +106,7 @@
                    rel="noopener noreferrer"
                    title="Подписаться на канал"
                    aria-label="Подписаться на канал">
-
                     <span>Подписаться на канал</span>
-
                 </a>
 
                 <!-- Предложить порт -->
@@ -61,9 +116,7 @@
                    target="_blank"
                    rel="noopener noreferrer"
                    id="contact">
-
                     <span>Предложить порт</span>
-
                 </a>
 
                 <!-- Вход в админку -->
@@ -86,27 +139,37 @@
     <!-- Подвал сайта -->
 
     <footer class="footer">
-        <div class="container"
-             style="display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: center;
-                    text-align: center;
-                    gap: 8px;">
+        <div class="container footer-layout">
 
-            <span>
-                Проект канала
-                <a href="https://www.youtube.com/@naYadre"
+            <!-- Левая часть -->
+
+            <div class="footer-left">
+                © 2026 PortHub Switch · Независимый каталог
+            </div>
+
+            <!-- Центральная часть -->
+
+            <div class="footer-center">
+                <span>
+                    Проект канала
+                    <a href="https://www.youtube.com/@naYadre"
+                       target="_blank"
+                       rel="noopener noreferrer">На Ядре</a>
+                </span>
+
+                <span>
+                    Огромное спасибо Soult414 и всем остальным!
+                </span>
+            </div>
+
+            <!-- Правая часть -->
+
+            <div class="footer-right">
+                Не связан с Nintendo ·
+                <a href="https://t.me/atomiccat404"
                    target="_blank"
-                   rel="noopener noreferrer"
-                   style="color: #ff9900; font-weight: 600;">
-                    На Ядре
-                </a>
-            </span>
-
-            <span>
-                Огромное спасибо Soult414 и всем остальным!
-            </span>
+                   rel="noopener noreferrer">Обратная связь</a>
+            </div>
 
         </div>
     </footer>
