@@ -17,7 +17,7 @@ const SITE = {
     'PSP': 'assets/platforms/psp.png',
     'PS Vita': 'assets/platforms/psvita.png',
     'Nintendo 64': 'assets/platforms/Nintendo 64.svg',
-    'Dreamcast': 'assets/platforms/dreamcast.svg',
+    'Dreamcast': 'assets/platforms/Dreamcast.svg',
     'Game Boy Advance': 'assets/platforms/gba.png',
     'Nintendo 3DS': 'assets/platforms/Nintendo 3DS.svg',
     'Nintendo DS': 'assets/platforms/Nintendo DS.svg',
