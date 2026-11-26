@@ -22,3 +22,8 @@
 .brand .brand-hub{display:inline-block;background:var(--accent);color:#111;padding:2px 4px;border-radius:4px;margin-left:2px;line-height:1.05}
 .brand small{color:#b5b5b5}
 .logo{color:#111}
+/* Меняем местами название и иконку логотипа */
+
+.brand {
+    flex-direction: row-reverse;
+}
