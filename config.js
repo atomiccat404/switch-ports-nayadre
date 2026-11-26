@@ -23,7 +23,7 @@ const SITE = {
     'Dreamcast': 'assets/platforms/Dreamcast.svg',
     'Game Boy Advance': 'assets/platforms/gba.png',
     'Nintendo 3DS': 'assets/platforms/Nintendo 3DS.svg',
-    'Super Nintendo': 'assets/platforms/Super Nintendo.svg',
+    'Super Nintendo': 'assets/platforms/Supe Nintendo.svg',
     'Nintendo DS': 'assets/platforms/Nintendo DS.svg',
     'Nintendo Wii': 'assets/platforms/Nintendo Wii.svg',
     'Nintendo Wii U': 'assets/platforms/Nintendo Wii U.svg',
