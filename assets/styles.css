@@ -55,3 +55,10 @@ a.subscribe-btn:hover {
     width: 20px;
     height: 20px;
 }
+.subscribe-btn svg {
+    display: none !important;
+}
+
+.subscribe-btn span {
+    display: inline !important;
+}
