@@ -136,3 +136,26 @@ a.subscribe-btn:hover {
         font-size: 11px;
     }
 }
+/* Полная замена логотипа на собственное изображение */
+
+.brand.brand-image {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 0;
+}
+
+.site-logo {
+    display: block;
+    height: 56px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Если логотип слишком большой на телефоне */
+
+@media (max-width: 760px) {
+    .site-logo {
+        height: 42px;
+    }
+}
