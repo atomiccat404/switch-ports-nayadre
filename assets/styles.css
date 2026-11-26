@@ -2,3 +2,17 @@
 @media(max-width:1050px){.top,.container{padding-left:26px;padding-right:26px}.rail{grid-auto-columns:calc((100% - 4 * 14px)/5);gap:14px}.grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:22px 14px}.platforms{grid-template-columns:repeat(3,minmax(0,1fr))}.nav{gap:16px;margin-left:0}.hero-art{right:-100px;opacity:.6}}@media(max-width:760px){.top{height:66px;gap:10px;padding:0 16px}.container{padding:0 16px}.nav{display:none}.top-right .button span{display:none}.top-right .button{padding:10px}.brand strong{font-size:16px}.brand small{font-size:10px}.logo{width:36px;height:36px}.hero{margin-top:20px;padding:25px 20px}.hero h1{letter-spacing:-1.3px}.hero-art{right:-190px;opacity:.34}.hero p{font-size:13px;margin-bottom:19px}.searchbar{gap:7px}.searchfield{height:48px;padding:0 10px;gap:8px}.key{display:none}.filterbtn{padding:10px}.filterbtn span{display:none}.filterbox{grid-template-columns:1fr 1fr;padding:10px;gap:8px}.filterbox .button{grid-column:1/-1}.rail{grid-auto-columns:calc((100% - 2 * 11px)/3.2);gap:11px}.grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px 11px}.section{margin-top:26px}.sectionhead{margin-bottom:12px}.sectionhead h2{font-size:19px}.sectionhead p{font-size:12px}.platforms{gap:7px;grid-template-columns:repeat(3,minmax(0,1fr))}.platform{padding:10px 7px;gap:6px}.platform-icon{height:29px;width:29px;border-radius:7px}.platform-icon svg{width:17px;height:17px}.platform strong{font-size:11px}.platform small{font-size:10px}.cover{border-radius:9px}.game h3{font-size:12px;margin:7px 0 4px}.meta{font-size:10px}.views svg{width:11px;height:11px}.cover-badge{font-size:8px;left:5px;top:5px}.seg button{padding:7px 9px;font-size:11px}.detail{grid-template-columns:1fr;gap:18px}.detail>.cover{max-width:190px;width:100%;margin:0 auto}.detail-main{padding:20px}.form-grid{grid-template-columns:1fr}.wide{grid-column:auto}.inline{flex-wrap:wrap}.inline .field{flex-basis:100%}.panel{padding:15px}.footer .container{gap:10px}.admin-title h1{font-size:24px}}@media(max-width:360px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.rail{grid-auto-columns:46%}.platforms{grid-template-columns:repeat(2,minmax(0,1fr))}.top-right .demo{display:none}}@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 .loading{padding:60px 20px;text-align:center;color:var(--muted)} .login-panel{max-width:460px;margin:36px auto}.login-panel .field{margin:15px 0}.login-panel .button{width:100%}.platform-icon img{width:25px;height:25px;object-fit:contain}.logo img{width:29px;height:29px;object-fit:contain}.admin-tools{flex-wrap:wrap}.field small{display:block;color:var(--muted);margin-top:6px}
 .custom-icon{width:20px;height:20px;object-fit:contain;vertical-align:middle;flex:none}
+/* Мой фон главного баннера */
+
+.hero {
+    background-image: url('hero-bg.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Скрываем старый рисунок консоли */
+
+.hero-art {
+    display: none;
+}
