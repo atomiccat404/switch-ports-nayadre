@@ -4,7 +4,9 @@ const SITE = {
   supabaseUrl: 'https://gthrpxjbcykyuvyjaaht.supabase.co',
   supabaseKey: 'sb_publishable_155QBEmvjF4K7RD9Bhm6aQ_clg8o3tH',
   // Пример: icons: { logo: 'assets/my-logo.svg', search: 'assets/search.svg' },
-  icons: {},
+  icons: {
+    logo: 'assets/logo.svg',
+},
   // Пример: platformImages: { 'PC': 'assets/pc.svg', 'PlayStation 2': 'assets/ps2.png' },
   platformImages: {},
   platformIcons: {},
