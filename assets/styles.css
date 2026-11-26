@@ -88,3 +88,51 @@ a.subscribe-btn:hover {
     color: #ffb333;
     text-decoration: underline;
 }
+/* Размер текстового логотипа */
+
+.brand strong {
+    font-size: 32px;
+    line-height: 1.1;
+}
+
+.brand small {
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+/* Компактные кнопки в шапке */
+
+.top-right a.button {
+    padding: 8px 12px;
+    font-size: 12px;
+    min-height: 34px;
+    height: auto;
+    border-radius: 8px;
+    gap: 7px;
+}
+
+/* Иконка YouTube */
+
+.top-right .subscribe-btn svg {
+    display: block !important;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+/* Мобильная версия */
+
+@media (max-width: 760px) {
+    .brand strong {
+        font-size: 24px;
+    }
+
+    .brand small {
+        font-size: 10px;
+    }
+
+    .top-right a.button {
+        padding: 7px 9px;
+        font-size: 11px;
+    }
+}
