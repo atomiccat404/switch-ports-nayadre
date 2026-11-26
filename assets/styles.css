@@ -27,3 +27,13 @@
 .brand {
     flex-direction: row-reverse;
 }
+/* Скрываем иконку логотипа */
+
+.brand .logo {
+    display: none;
+}
+
+.brand {
+    flex-direction: row;
+    gap: 0;
+}
