@@ -37,3 +37,21 @@
     flex-direction: row;
     gap: 0;
 }
+/* Кнопка подписки на канал */
+
+a.subscribe-btn {
+    background: #ff9900 !important;
+    color: #000000 !important;
+    border: 1px solid #ff9900 !important;
+    font-weight: 700;
+}
+
+a.subscribe-btn:hover {
+    background: #ffb333 !important;
+    border-color: #ffb333 !important;
+}
+
+.subscribe-btn svg {
+    width: 20px;
+    height: 20px;
+}
