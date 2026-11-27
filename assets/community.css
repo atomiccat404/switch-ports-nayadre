@@ -1,0 +1,28 @@
+/* PortHub v0.4: only new components. Existing styles stay untouched. */
+.ph-featured { margin-top: 0; margin-bottom: 26px; }
+.ph-star { color: #ff9900; }
+.ph-card-likes { display:inline-flex; align-items:center; gap:4px; color:#ffb44d; white-space:nowrap; }
+.ph-card-likes svg { width:13px; height:13px; }
+.ph-card-stats { display:flex; align-items:center; flex-wrap:wrap; gap:7px; }
+.ph-reactions { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:16px 0; }
+.ph-vote { min-height:40px; }
+.ph-vote.selected { background:#ff9900!important; color:#141414!important; border-color:#ff9900!important; }
+.ph-reaction-msg { flex-basis:100%; font-size:12px; }
+.ph-comments { margin:24px 0 36px; }
+.ph-comment-form { display:grid; gap:12px; margin:16px 0 22px; }
+.ph-comment-form input { max-width:340px; }
+.ph-comment-form textarea { resize:vertical; min-height:90px; }
+.ph-comment-actions,.ph-comment-head { display:flex; align-items:center; flex-wrap:wrap; gap:12px; }
+.ph-comment-actions { justify-content:space-between; }
+.ph-comment-actions small { flex:1 1 180px; }
+.ph-comment { padding:16px 0; border-top:1px solid var(--line,#ffffff20); }
+.ph-comment-head time { color:var(--muted,#aaa); font-size:12px; }
+.ph-comment-head strong { overflow-wrap:anywhere; }
+.ph-comment-head .ph-delete-comment { margin-left:auto; font-size:12px; min-height:30px; padding:5px 9px; color:#ff9b9b; }
+.ph-comment p { white-space:pre-wrap; overflow-wrap:anywhere; margin:8px 0 0; line-height:1.55; }
+.ph-featured-check { display:flex; align-items:center; gap:9px; padding:12px; border:1px solid #ff990050; border-radius:10px; cursor:pointer; }
+.ph-featured-check input { width:18px; height:18px; accent-color:#ff9900; flex:0 0 18px; }
+.ph-featured-check span { color:var(--text,#eee); }
+#catalog .seg { flex-wrap:wrap; }
+#catalog .seg button { white-space:nowrap; }
+@media (max-width:760px){.ph-featured {margin-bottom:20px}.ph-comments{padding:14px}.ph-comment-actions{align-items:flex-start}.ph-card-stats{gap:4px}#catalog .seg button{font-size:11px;padding:7px 8px}#catalog .seg{max-width:100%;}}
