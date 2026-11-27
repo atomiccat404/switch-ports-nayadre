@@ -1,5 +1,5 @@
 /* PortHub v0.4: only new components. Existing styles stay untouched. */
-.ph-featured { margin-top: 0; margin-bottom: 26px; }
+.ph-featured { margin-top: 20; margin-bottom: 26px; }
 .ph-star { color: #ff9900; }
 .ph-card-likes { display:inline-flex; align-items:center; gap:4px; color:#ffb44d; white-space:nowrap; }
 .ph-card-likes svg { width:13px; height:13px; }
